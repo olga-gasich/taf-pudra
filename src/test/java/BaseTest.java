@@ -9,6 +9,6 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown() {
-        DriverSingleton.getDriver().quit();
+        DriverSingleton.quit();
     }
 }
